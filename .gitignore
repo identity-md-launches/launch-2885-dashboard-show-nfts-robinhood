@@ -1,0 +1,16 @@
+# Explicit path budget: 0 submitted bytes from the dependency/cache/input paths below.
+# The complete source, lockfile, public runtime assets, docs, scripts, and dist/ are
+# retained. Total submission budget: 8,388,608 bytes. dist/ is deliberately tracked.
+node_modules/
+**/node_modules/
+.vite/
+**/.vite/
+.cache/
+**/.cache/
+.npm/
+**/.npm/
+.pnpm-store/
+**/.pnpm-store/
+*.tsbuildinfo
+test/scratch/
+.imd/reads/
